@@ -1,15 +1,15 @@
 //
-//  QuickJS_iOSTests.m
+//  QuickJSKitTests.m
 //  QuickJS-iOSTests
 //
 //  Created by Sam Chang on 7/18/19.
 //  Copyright © 2019 Sam Chang. All rights reserved.
 //
 
-#import <QuickJS_iOS/QuickJS_iOS.h>
+#import <QuickJSKit/QuickJSKit.h>
 #import <XCTest/XCTest.h>
 
-@interface QuickJS_iOSTests : XCTestCase
+@interface QuickJSKitTests : XCTestCase
 
 @end
 
@@ -40,7 +40,7 @@
 
 @end
 
-@implementation QuickJS_iOSTests
+@implementation QuickJSKitTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

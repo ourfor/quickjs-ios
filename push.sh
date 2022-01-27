@@ -1,1 +1,1 @@
-pod trunk push QuickJS_iOS.podspec --verbose --allow-warnings
+pod trunk push QuickJSKit.podspec --verbose --allow-warnings

@@ -21,8 +21,8 @@ open the project, select simulator as the target, then press Command+U to run th
 
 ## Intergrate your project with cocoapods
 
-1. add pod dependency `pod 'QuickJS_iOS'`
-2. add header import `#import <QuickJS_iOS/QuickJS_iOS.h>`
+1. add pod dependency `pod 'QuickJSKit'`
+2. add header import `#import <QuickJSKit/QuickJSKit.h>`
 
 ## Samples
 
@@ -75,4 +75,4 @@ id<TestProtocol> obj = [destObject asProtocol:@protocol(TestProtocol)];
 id retValue = [obj javascriptAddFunc:@(1):@(2)];
 ```
 
-You can find more samples in file: QuickJS_iOSTest.m
+You can find more samples in file: QuickJSKitTest.m
